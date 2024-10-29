@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+}
+section {
+    width: 90%;
+    max-width: 800px; 
+    padding: 1em;
+    margin: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+menu {
+    display: flex;
+}
+header, footer {
+    background-color: gold;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+h1{
+    margin: 1em;
+}
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    menu {
+        flex-wrap: wrap;
+        align-items: center;    
+        justify-content: center; 
+    }
+}
+pre{
+    margin: 0;
+    padding: 0%;
+}
