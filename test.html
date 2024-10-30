@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Study Plan</title>
+    <style>
+        /* Basic styling for the container */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2, h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Grid container for courses */
+        .course-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        /* Individual course item styling */
+        .course-item {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>1. studieår</h2>
+
+    <h3>1. semester</h3>
+    <div class="course-list">
+        <div class="course-item">Diskret matematikk - DAPE1300 (10 stp.)</div>
+        <div class="course-item">Programmering - DAPE1400 (10 stp.)</div>
+        <div class="course-item">Teknologi og samfunn for programmerere - DATA1100 (5 stp.)</div>
+        <div class="course-item">Innføring i modeller og beregninger - MAMO1100 (5 stp.)</div>
+    </div>
+
+    <h3>2. semester</h3>
+    <div class="course-list">
+        <div class="course-item">Matematikk 1000 - DAFE1000 (10 stp.)</div>
+        <div class="course-item">Fysikk og kjemi - DAPE2101 (10 stp.)</div>
+        <div class="course-item">Databaser - DATA1500 (10 stp.)</div>
+    </div>
+
+    <h2>2. studieår</h2>
+
+    <h3>3. semester</h3>
+    <div class="course-list">
+        <div class="course-item">Matematikk 2000 med statistikk - DAPE2000 (10 stp.)</div>
+        <div class="course-item">Moderne fysikk - MAMO2100 (10 stp.)</div>
+    </div>
+</body>
+</html>
