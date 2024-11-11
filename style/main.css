@@ -1,3 +1,6 @@
+:root {
+    --topmenucolour:rgb(128, 0, 32);
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -15,34 +18,12 @@ section {
     margin: 1em;
 }
 
-menu {
-    display: flex;
-    align-items: center;    
-    justify-content: center; 
-}
-@media (max-width: 800px) {
 
-}
 header, footer {
-    background-color: gold;
+    background-color: var(--topmenucolour);
     padding: 0.5em
 }
-nav li {
-    list-style-type: none;
-    padding-right: 1em;
-}
-nav a{
-    display: inline-block;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    background-color: black;
-    border-radius: 20px;
-    color: white;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    text-decoration: none;
-}
+
 h1{
     margin: 1em;
 }
@@ -70,4 +51,69 @@ th {
 }
 h3 {
     text-align: center;
+}
+
+#burger-toggle {display: none;}
+
+@media (min-width: 801px) {
+    .menu {
+        display: flex;
+        align-items: center;    
+        justify-content: center; 
+    }
+    .menu li{
+        list-style-type: none;
+        padding-right: 1em;
+    }
+    .menu a{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1.5rem;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-icon{
+        display: block;
+        background-image: url(../media/menu.svg);
+        background-size: cover;
+        height: 40px;
+        width: 40px;
+    }
+    .menu{
+        list-style-type: none;
+        position: sticky;
+    }
+    .menu li{
+        height: 0px;        
+        overflow: hidden;
+    }
+    .menu a{
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+        padding: 1rem;
+       
+        text-decoration: none;
+    }
+    #burger-toggle:checked ~ .menu li {
+        height: 1rem;
+        width: auto;
+        background-color: var(--topmenucolour);
+        padding: 0.5rem;
+    }
+    nav{
+        display: flex;
+        height: 40px;
+    }
+    .hamburger-toggle-container {cursor: pointer;}
+}
+footer p{
+    color: white;
 }
