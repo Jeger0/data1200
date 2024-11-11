@@ -31,6 +31,18 @@ nav li {
     list-style-type: none;
     padding-right: 1em;
 }
+nav a{
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+}
 h1{
     margin: 1em;
 }
