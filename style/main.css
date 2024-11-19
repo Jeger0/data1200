@@ -1,27 +1,17 @@
-:root {
-    --topmenucolour:rgb(128, 0, 32);
-}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     min-height: 100vh;
 }
-article{
+article, section, .main-image{
     max-width: 1000px; 
     margin: auto;
-    padding: 1rem;
-}
-.main-image{
-    max-width: 1000px;
-    margin: auto;
-    padding: 1rem;
-}
-
-section {
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
 }
 header, footer {
-    background-color: var(--topmenucolour);
+    background-color: gold;
     padding: 0.5rem
 }
 
@@ -35,6 +25,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.info-table th{
+    text-align: left;
 }
 table {
     border-collapse: collapse;
@@ -54,7 +47,6 @@ th {
 .tablehd{
     text-align: center;
     padding-bottom: 1rem;
- 
 }
 
 #burger-toggle {display: none;}
@@ -70,14 +62,13 @@ th {
         padding-right: 1rem;
     }
     .menu a{
-        display: inline-block;
-        font-weight: bold;
-        font-size: 1.5rem;
         background-color: black;
-        border-radius: 20px;
         color: white;
-        padding: 0.5rem;
-        margin: 0.5rem;
+        border: none;
+        padding: 0.8rem 1.2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
         text-decoration: none;
     }
 }
@@ -101,7 +92,6 @@ th {
     .menu a{
         font-weight: bold;
         font-size: 1rem;
-        color: white;
         padding: 1rem;
        
         text-decoration: none;
@@ -109,7 +99,7 @@ th {
     #burger-toggle:checked ~ .menu li {
         height: 1rem;
         width: auto;
-        background-color: var(--topmenucolour);
+        background-color: gold;
         padding: 0.5rem;
     }
     nav{
@@ -119,7 +109,7 @@ th {
     .hamburger-toggle-container {cursor: pointer;}
 }
 footer p{
-    color: white;
+
 }
 
 pre {
@@ -156,20 +146,16 @@ pre {
 a{
     color: black;
     text-decoration-thickness: 2px;
-    text-decoration-color: var(--topmenucolour);
+    text-decoration-color: gold;
 }
 a:hover{
     text-decoration-color: black;
-}
-aside{
-    background-color: orange;
 }
 
 h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
-
 .link-box {
     display: flex;
     align-items: center;
@@ -179,7 +165,6 @@ h2 {
     border-radius: 5px;
     overflow: hidden;
     margin-top: 1rem;
-    max-width: 70%;
     
 }
 .profile-pic {
@@ -199,11 +184,6 @@ h2 {
     margin-bottom: 2px;
 }
 @media (max-width: 600px) {
-    .link-box {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     .profile-pic {
         margin-bottom: 0.8rem;
         width: 40px;
@@ -226,8 +206,6 @@ section li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    background-color: orange;
     flex-wrap: wrap; 
 }
 
@@ -235,14 +213,12 @@ section li{
     flex: 1;
     min-width: 300px; 
     padding: 10px;
+    background-color: gold;
 }
 
 .student-img {
     max-width: 100%;
     height: auto;
-}
-.student-link{
-    text-decoration: none;
 }
 .info-table {
     width: 60%; 
@@ -251,4 +227,96 @@ section li{
 }
 .info-table td {
     padding: 8px;
+}
+.student-info-link{
+    text-decoration: none;
+}
+.student-info-link2{
+    text-decoration-color: black;
+}
+.more-student-history{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.more-student-history a{
+    font-size: 1.5rem;
+    background-color: gold;
+    padding: 1rem;
+    text-decoration: none;
+}
+footer {
+    background-color: gold;
+    padding: 2rem;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.newsletter {
+    margin-bottom: 2rem;
+}
+
+.newsletter h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2rem;
+    text-align: left; 
+}
+
+.contact-info, .links, .social-links {
+    flex: 1 1 30%; /* Allow items to grow and shrink, set a base width of 30% */
+    min-width: 250px; 
+    max-width: 300px; 
+}
+
+.links, .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li, .social-links li {
+    margin-bottom: 0.5rem;
+}
+
+.links a, .social-links a, .contact-link {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.links a:hover, .social-links a:hover, .contact-link:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 900px) {
+    .footer-content {
+        flex-wrap: wrap; /* Ensure items wrap immediately when space is limited */
+        justify-content: center; /* Center items when wrapped */
+    }
+
+    .contact-info,
+    .links,
+    .social-links {
+        flex: 1 1 100%;
+        max-width: none; 
+    }
 }
