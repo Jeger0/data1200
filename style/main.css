@@ -6,10 +6,18 @@ body {
     font-family: Arial, sans-serif;
     min-height: 100vh;
 }
-section {
-    max-width: 1200px; 
-    align-items: center;
+article{
+    max-width: 1000px; 
     margin: auto;
+    padding: 1rem;
+}
+.main-image{
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+}
+
+section {
     padding: 1rem;
 }
 header, footer {
@@ -18,7 +26,7 @@ header, footer {
 }
 
 h1{
-    margin-top: 1rem;
+    padding-top: 1rem;
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -30,8 +38,8 @@ h1{
 }
 table {
     border-collapse: collapse;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -45,6 +53,8 @@ th {
 }
 .tablehd{
     text-align: center;
+    padding-bottom: 1rem;
+ 
 }
 
 #burger-toggle {display: none;}
@@ -168,8 +178,10 @@ h2 {
     padding: 1rem;
     border-radius: 5px;
     overflow: hidden;
+    margin-top: 1rem;
+    max-width: 70%;
+    
 }
-
 .profile-pic {
     width: 60px;
     height: 80px;
@@ -206,4 +218,37 @@ h2 {
     max-width: 100%;
     height: auto;    
 
+}
+section li{
+    padding: 5px;
+}
+.student-history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: orange;
+    flex-wrap: wrap; 
+}
+
+.student-info {
+    flex: 1;
+    min-width: 300px; 
+    padding: 10px;
+}
+
+.student-img {
+    max-width: 100%;
+    height: auto;
+}
+.student-link{
+    text-decoration: none;
+}
+.info-table {
+    width: 60%; 
+    margin: auto; 
+
+}
+.info-table td {
+    padding: 8px;
 }
