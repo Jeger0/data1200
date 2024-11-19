@@ -20,10 +20,8 @@ header, footer {
 h1{
     margin-top: 1rem;
     text-align: center;
-}
-video {
-    max-width: 100%;
-    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .table{
     display: flex;
