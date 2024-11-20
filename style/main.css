@@ -129,6 +129,7 @@ pre {
     display: flex; /* Use flexbox to align items horizontally */
     align-items: flex-start; /* Align items at the top */
     gap: 20px; /* Add space between the songs and the image */
+    flex-wrap: wrap;
 }
 
 .songs {
