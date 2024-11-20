@@ -1,54 +1,59 @@
+/* General */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    min-height: 100vh;
 }
 article, section, .main-image{
-    max-width: 1000px; 
+    max-width: 1000px;
     margin: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 header, footer {
     background-color: gold;
     padding: 0.5rem
 }
-
-h1{
-    padding-top: 1rem;
+section li{
+    padding: 5px;
+}
+/* Headings */
+h1 {
     text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
-.table{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
-.info-table th{
-    text-align: left;
-}
+/* Table Styling */
 table {
     border-collapse: collapse;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
-
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 th, td {
     padding: 10px;
     border: 1px solid #ddd;
 }
-
 th {
     background-color: #f2f2f2;
+}
+.info-table th{
+    text-align: left;
 }
 .tablehd{
     text-align: center;
     padding-bottom: 1rem;
 }
-
+.info-table {
+    width: 60%; 
+    margin: auto; 
+}/* Navigation and Menu */ /* Hamburger menu from https://oslomet.instructure.com/courses/29166/modules/items/681715. */
 #burger-toggle {display: none;}
 
 @media (min-width: 801px) {
@@ -72,7 +77,7 @@ th {
         text-decoration: none;
     }
 }
-
+/* Mobile Menu */
 @media (max-width: 800px) {
     .menu-icon{
         display: block;
@@ -108,10 +113,6 @@ th {
     }
     .hamburger-toggle-container {cursor: pointer;}
 }
-footer p{
-
-}
-
 pre {
     
     padding: 1.5em; /* Adds space inside the box */
@@ -134,6 +135,9 @@ pre {
 
 .songs {
     flex: 1; /* Let the songs list take up available space */
+}
+.songs a{
+    font-weight: bold;
 }
 
 .image-container img {
@@ -175,7 +179,7 @@ pre {
     font-weight: bold;
 }
 
-
+/* General Link Styling */
 a{
     color: black;
     text-decoration-thickness: 2px;
@@ -185,10 +189,7 @@ a:hover{
     text-decoration-color: black;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
+/* Link Box Styling */
 .link-box {
     display: flex;
     align-items: center;
@@ -205,7 +206,6 @@ h2 {
     height: 80px;
     margin-right: 1rem;
 }
-
 .info {
     font-size: 1rem;
 }
@@ -227,45 +227,31 @@ h2 {
         font-size: 0.9rem;
     }
 }
+
+/* Image Scaling */
 .oslomet{
     max-width: 100%;
     height: auto;    
 
 }
-section li{
-    padding: 5px;
-}
-.student-history {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-}
 
-.student-info {
-    flex: 1;
-    min-width: 300px; 
-    padding: 10px;
-    background-color: gold;
-}
-
-.student-img {
-    max-width: 100%;
-    height: auto;
-}
-.info-table {
-    width: 60%; 
-    margin: auto; 
-
-}
 .info-table td {
     padding: 8px;
+}
+/* Student history styling */
+.student-info {
+    padding: 10px;
+    background-color: gold;
 }
 .student-info-link{
     text-decoration: none;
 }
 .student-info-link2{
     text-decoration-color: black;
+}
+.student-img {
+    max-width: 100%;
+    height: auto;
 }
 .more-student-history{
     text-align: center;
@@ -278,6 +264,8 @@ section li{
     padding: 1rem;
     text-decoration: none;
 }
+
+/* Footer Styling */
 footer {
     background-color: gold;
     padding: 2rem;
