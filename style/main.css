@@ -75,13 +75,20 @@ th {
         cursor: pointer;
         border-radius: 5px;
         text-decoration: none;
+        font-weight: bold;
+    }
+    .menu a:active, .menu a:focus, .menu a:hover {
+        background-color: white; 
+        color: black;  
+        border: 3px solid black;  
+        transform: scale(1.1); 
     }
 }
 /* Mobile Menu */
 @media (max-width: 800px) {
     .menu-icon{
         display: block;
-        background-image: url(../media/menu-39.png);
+        background-image: url(../media/menu.png);
         background-size: cover;
         height: 40px;
         width: 40px;
@@ -201,6 +208,9 @@ a:hover{
     margin-top: 1rem;
     
 }
+.link-box:focus, .link-box:hover, .link-box:active{
+    transform: scale(1.1); 
+}
 .profile-pic {
     width: 60px;
     height: 80px;
@@ -246,9 +256,6 @@ a:hover{
 .student-info-link{
     text-decoration: none;
 }
-.student-info-link2{
-    text-decoration-color: black;
-}
 .student-img {
     max-width: 100%;
     height: auto;
@@ -264,6 +271,12 @@ a:hover{
     padding: 1rem;
     text-decoration: none;
 }
+.more-student-history a:active, .more-student-history a:focus, .more-student-history a:hover {
+    background-color: white; 
+    color: black;  
+    border: 3px solid black;  
+    transform: scale(1.1); 
+}
 
 /* Footer Styling */
 footer {
@@ -278,19 +291,26 @@ footer {
     margin-bottom: 2rem;
 }
 
-.newsletter h2 {
+.newsletter p {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.subscribe-button {
+.subscribe{
     background-color: black;
     color: white;
     border: none;
     padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
+}
+.subscribe:active, .subscribe:focus, .subscribe:hover {
+    background-color: white; 
+    color: black;  
+    border: 3px solid black;  
+    transform: scale(1.1); 
 }
 
 .footer-content {
@@ -305,6 +325,7 @@ footer {
     flex: 1 1 30%; /* Allow items to grow and shrink, set a base width of 30% */
     min-width: 250px; 
     max-width: 300px; 
+    font-weight: bold;
 }
 
 .links, .social-links {
