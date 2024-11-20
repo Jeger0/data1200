@@ -346,6 +346,7 @@ footer {
 
 .links a:hover, .social-links a:hover, .contact-link:hover {
     text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 
