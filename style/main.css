@@ -135,6 +135,9 @@ pre {
 .songs {
     flex: 1; /* Let the songs list take up available space */
 }
+.songs a{
+    font-weight: bold;
+}
 
 .image-container img {
     width: 300px; /* Set a suitable width for the image */
