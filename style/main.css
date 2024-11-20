@@ -1,33 +1,25 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    min-height: 100vh;
 }
 article, section, .main-image{
-    max-width: 1000px; 
+    max-width: 1000px;
     margin: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 header, footer {
     background-color: gold;
     padding: 0.5rem
 }
 
-h1{
-    padding-top: 1rem;
+/* Headings */
+h1 {
     text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
-.table{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.info-table th{
-    text-align: left;
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 table {
     border-collapse: collapse;
@@ -35,14 +27,20 @@ table {
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
-
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 th, td {
     padding: 10px;
     border: 1px solid #ddd;
 }
-
 th {
     background-color: #f2f2f2;
+}
+.info-table th{
+    text-align: left;
 }
 .tablehd{
     text-align: center;
@@ -108,10 +106,6 @@ th {
     }
     .hamburger-toggle-container {cursor: pointer;}
 }
-footer p{
-
-}
-
 pre {
     
     padding: 1.5em; /* Adds space inside the box */
@@ -188,10 +182,7 @@ a:hover{
     text-decoration-color: black;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
+
 .link-box {
     display: flex;
     align-items: center;
@@ -238,20 +229,10 @@ h2 {
 section li{
     padding: 5px;
 }
-.student-history {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-}
-
 .student-info {
-    flex: 1;
-    min-width: 300px; 
     padding: 10px;
     background-color: gold;
 }
-
 .student-img {
     max-width: 100%;
     height: auto;
