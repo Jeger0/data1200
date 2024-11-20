@@ -1,3 +1,4 @@
+/* General */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,7 +12,9 @@ header, footer {
     background-color: gold;
     padding: 0.5rem
 }
-
+section li{
+    padding: 5px;
+}
 /* Headings */
 h1 {
     text-align: center;
@@ -21,6 +24,7 @@ h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
+/* Table Styling */
 table {
     border-collapse: collapse;
     margin-left: 2rem;
@@ -46,7 +50,10 @@ th {
     text-align: center;
     padding-bottom: 1rem;
 }
-
+.info-table {
+    width: 60%; 
+    margin: auto; 
+}/* Navigation and Menu */
 #burger-toggle {display: none;}
 
 @media (min-width: 801px) {
@@ -70,7 +77,7 @@ th {
         text-decoration: none;
     }
 }
-
+/* Mobile Menu */
 @media (max-width: 800px) {
     .menu-icon{
         display: block;
@@ -172,7 +179,7 @@ pre {
     font-weight: bold;
 }
 
-
+/* General Link Styling */
 a{
     color: black;
     text-decoration-thickness: 2px;
@@ -182,7 +189,7 @@ a:hover{
     text-decoration-color: black;
 }
 
-
+/* Link Box Styling */
 .link-box {
     display: flex;
     align-items: center;
@@ -199,7 +206,6 @@ a:hover{
     height: 80px;
     margin-right: 1rem;
 }
-
 .info {
     font-size: 1rem;
 }
@@ -221,35 +227,31 @@ a:hover{
         font-size: 0.9rem;
     }
 }
+
+/* Image Scaling */
 .oslomet{
     max-width: 100%;
     height: auto;    
 
 }
-section li{
-    padding: 5px;
+
+.info-table td {
+    padding: 8px;
 }
+/* Student history styling */
 .student-info {
     padding: 10px;
     background-color: gold;
-}
-.student-img {
-    max-width: 100%;
-    height: auto;
-}
-.info-table {
-    width: 60%; 
-    margin: auto; 
-
-}
-.info-table td {
-    padding: 8px;
 }
 .student-info-link{
     text-decoration: none;
 }
 .student-info-link2{
     text-decoration-color: black;
+}
+.student-img {
+    max-width: 100%;
+    height: auto;
 }
 .more-student-history{
     text-align: center;
@@ -262,6 +264,8 @@ section li{
     padding: 1rem;
     text-decoration: none;
 }
+
+/* Footer Styling */
 footer {
     background-color: gold;
     padding: 2rem;
