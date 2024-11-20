@@ -53,7 +53,7 @@ th {
 .info-table {
     width: 60%; 
     margin: auto; 
-}/* Navigation and Menu */
+}/* Navigation and Menu */ /* Hamburger menu from https://oslomet.instructure.com/courses/29166/modules/items/681715. */
 #burger-toggle {display: none;}
 
 @media (min-width: 801px) {
