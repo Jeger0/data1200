@@ -194,7 +194,7 @@ pre {
 a{
     color: black;
     text-decoration-thickness: 2px;
-    text-decoration-color: gold;
+    text-decoration-color: brown;
 }
 a:hover{
     text-decoration-color: black;
@@ -272,6 +272,12 @@ a:hover{
 }
 .student-info-link{
     text-decoration: none;
+}
+.student-info-link-2{
+    text-decoration-color: black;
+}
+.student-info-link-2:hover{
+    text-decoration-color: brown;
 }
 .student-img {
     max-width: 100%;
