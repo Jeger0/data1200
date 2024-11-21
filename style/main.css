@@ -220,9 +220,6 @@ h2 {
 
 }
 
-.title-git4 {
-    font-size: 17px;
-}
 
 .title-git4 {
    font-size: 17px;
@@ -231,12 +228,40 @@ h2 {
 }
 
 .git-img1 {
-    padding-left: 25%;
+    padding-right: 50%;
 }
 
 .git-img2 {
-    padding-left:68% ;
-    padding-bottom: 10%;
+  
+    padding-left: 50%;
+}
+
+.title-git4 {
+    font-size: 20px;
+}
+
+.title-git5 {
+    font-size: 20px;
 
 }
-            
+
+.git-img1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.git-img3 {
+    float: left;
+    width: 50%;
+    padding: 4px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: 2px;
+}
+
+h5 {
+    font-size: 17px;
+}
