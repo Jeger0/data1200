@@ -254,10 +254,9 @@ a:hover{
 }
 
 /* Image Scaling */
-.oslomet{
+.image-scaling{
     max-width: 100%;
     height: auto;    
-
 }
 
 .info-table td {
@@ -276,10 +275,6 @@ a:hover{
 }
 .student-info-link-2:hover{
     text-decoration-color: brown;
-}
-.student-img {
-    max-width: 100%;
-    height: auto;
 }
 .more-student-history{
     text-align: center;
