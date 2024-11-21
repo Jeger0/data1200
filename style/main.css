@@ -113,19 +113,21 @@ th {
     }
     .hamburger-toggle-container {cursor: pointer;}
 }
+/* Lyrics font & size, and a border around it, making it easier to read */
+/* White-space and overflow code imported from AI*/
 pre {
     
-    padding: 1.5em; /* Adds space inside the box */
-    font-family: Arial, sans-serif; /* Ensures the font is Arial */
-    font-size: 1.3em; /* Makes the text larger */
-    line-height: 1.8; /* Improves line spacing for easier reading */
-    color: #222; /* Dark text color for contrast */
+    padding: 1.5em; 
+    font-family: Arial, sans-serif; 
+    font-size: 1.3em; 
+    line-height: 1.8; 
+    color: #222; 
     white-space: pre-wrap; /* Allows text wrapping within the box */
     overflow-x: auto; /* Enables horizontal scrolling for long lines */
-    border: 1px solid #d0d7de; /* Subtle border to define the section */
+    border: 1px solid #d0d7de; 
 
 }
-
+/* Flexbox to aling image*/
 .songs-container {
     display: flex; /* Use flexbox to align items horizontally */
     align-items: flex-start; /* Align items at the top */
@@ -140,9 +142,11 @@ pre {
     font-weight: bold;
 }
 
+/* Images sizing and placement*/
+/* Border-radius and box shadow code imported from AI*/
 .image-container img {
-    width: 300px; /* Set a suitable width for the image */
-    height: auto; /* Maintain the aspect ratio */
+    width: 300px; 
+    height: auto; 
     border-radius: 8px; /* Optional: Add rounded corners to the image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for styling */
 }
