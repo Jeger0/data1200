@@ -9,10 +9,6 @@
 <body>
     <header>
         <nav>
-            <input id="burger-toggle" type="checkbox">
-            <label class="hamburger-toggle-container" for="burger-toggle">
-                <div class="menu-icon"></div>
-            </label>
             <ul class="menu">
                 <li><a href="/index.html">MatMod</a></li>
                 <li><a href="/pages/activity.html">Activity</a></li>
@@ -21,16 +17,46 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <h1>Accessibility</h1>
         <section>
+            <p>
+                From the very beginning, we prioritized accessibility in the design and development of this website to ensure an inclusive experience for all users, including those with disabilities. We carefully considered how our design choices—such as layout, color scheme, text styling, and navigation—would impact users with visual impairments, limited motor abilities, and other accessibility needs. After finalizing these decisions, we used an automated accessibility checker to test the website and confirm that our accessibility goals were met.            </p>
+        
             <h2>Colors</h2>
-            <p></p>
-        </section>
-   
-        <section>
-           
-    </section>
-</main>
+            <p>
+                The website uses high-contrast colors for improved readability. Text elements are primarily black on a light background, while interactive elements like links and buttons feature clear visual distinctions when hovered over or focused. All color combinations meet or exceed the WCAG Level AA requirements, verified using WebAIM’s Contrast Checker.            </p>
+
+            <h2>Typography</h2>
+            <p>
+                We utilize accessible fonts like Arial with responsive units (rem) for scalability across devices. Line heights are set to enhance readability, particularly for longer paragraphs, and font sizes are optimized for comfortable reading. This ensures the text is legible on a variety of screen sizes and resolutions.            </p>
+
+            <h2>Navigation</h2>
+            <p>
+                Navigation menus are accessible via both mouse and keyboard. A visible focus outline is provided for links and buttons to aid users navigating with a keyboard. We also ensured that the links are easy to interact with, allowing for smooth navigation through the site without any barriers.            </p>
+
+            <h2>Structure</h2>
+            <p>
+                The site structure is built with semantic HTML elements (e.g., header, main, section, article) to enhance navigation for assistive technologies. Tables and lists are marked up appropriately, providing structural clarity and making it easier for screen readers to interpret the content.            </p>
+     
+            <h2>Keyboard Navigation</h2>
+            <p>
+                The website is fully navigable using a keyboard. Tab order follows a logical sequence, and there are no focus traps that prevent users from proceeding through the content. This ensures users can easily navigate through the site using the Tab key and other keyboard shortcuts.            </p>
+
+            <h2>Alternative Text for Images</h2>
+            <p>
+                All images on the website include meaningful alternative text, enabling users with screen readers to understand the content and context of visual elements. This ensures that visually impaired users have a clear understanding of all images presented on the website.            </p>
+
+            <h2>Testing and Improvements</h2>
+            <p>
+                During testing, we discovered that the hamburger menu wasn’t working well with keyboard navigation, as it required JavaScript to toggle the menu with keyboard. This made it challenging for users who rely on keyboard navigation to access the menu.
+
+                To address this, we replaced the hamburger menu with a standard, non-interactive navigation menu. This new layout works well with keyboard navigation, provides immediate access to all links, and takes up minimal space. This ensures a smooth and accessible user experience for all users, regardless of their navigation preferences.
+            </p>
+            
+        
+            
+    </main>
 </body>
 </html>
