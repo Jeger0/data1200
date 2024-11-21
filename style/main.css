@@ -86,7 +86,7 @@ th {
         transform: scale(1.1); 
     }
 }
-/* Mobile Menu */
+/* Smaller screen Menu */
 @media (max-width: 800px) {
         .menu {
         display: flex;
@@ -229,6 +229,7 @@ a:hover{
     margin-top: 2px;
     margin-bottom: 2px;
 }
+/* Smaller screen */
 @media (max-width: 600px) {
     .profile-pic {
         margin-bottom: 0.8rem;
@@ -366,7 +367,7 @@ footer {
     text-decoration-thickness: 2px;
 }
 
-
+/* Smaller screen */
 @media (max-width: 900px) {
     .footer-content {
         flex-wrap: wrap; /* Ensure items wrap immediately when space is limited */
