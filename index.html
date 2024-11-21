@@ -9,9 +9,9 @@
 <body>
 
     <header>
-        <nav>
+        <nav><!-- Hamburger menu toggle for small screens -->
             <input id="burger-toggle" type="checkbox">
-            <label class="hamburger-toggle-container" for="burger-toggle">
+            <label class="hamburger-toggle-container" for="burger-toggle"  aria-label="Toggle navigation menu">
                 <div class="menu-icon"></div>
             </label>
             <ul class="menu">
@@ -23,380 +23,494 @@
         </nav>
     </header>
     <main>
+        <!-- Main heading -->
         <h1>Matematisk modellering og datavitenskap – ingeniør</h1>
-        <section>
-           
-            <video controls muted>
-            <source src="https://film.oslomet.no/10820436/11069884/15e1a94511663749eab749447a2838c7/video_1080p/lo151-1b-boolske-funksjoner-2-video.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-              </video>
+          <!-- Main Image Section -->
+        <div class="main-image">
+            <img src="media/oslomet.png" alt="Bilde av oslomet bygg" width="1000px" class="oslomet">
+            <a href="https://ansatt.oslomet.no/siste-nytt/-/nyhet/siste-nytt-fra-campusprogrammet-"><b>Skjalg B Vold</b></a>
+        </div>
+
+        <article>
             <h2>Bachelorprogram</h2> 
             <p>Få innsikt i matematiske modeller og datadrevne metoder som kan løse mange praktiske og samfunnsnyttige oppgaver.</p>
-
-        </section>
-
-        <section>
-            <h2>Opptakskrav og poeng</h2>
-            <p>For å søke på dette programmet må du ha</p>
-            <ul>
-                <li><b><a href="https://www.samordnaopptak.no/info/opptak/opptak-uhg/">generell studiekompetanse (samordnaopptak.no)</a></b> eller <b><a href="#z">oppfylle kravene til realkompetanse</a></b></li>
-                <li>matematikk R1 og R2</li>
-                <li>fysikk</li>
-            </ul>
-            <p>Det kan være konkurranse om plassene. Ved forrige opptak kom alle kvalifiserte søkere inn.</p>
-            <p>Hvis du mangler generell studiekompetanse eller enkelte fag fra videregående skole, kan du søke på dette studiet om du har <a href="#"><b>bestått ettårig forkurs for ingeniørutdanning.</a></b></p>
+              <!-- Program Description -->
+            <table class="info-table">
+                <tr>
+                    <th>Studiested</th>
+                    <td>Pilestredet i Oslo</td>
+                </tr>
+                <tr>
+                    <th>Varighet</th>
+                    <td>3 år</td>
+                </tr>
+                <tr>
+                    <th>Omfang</th>
+                    <td>Heltid</td>
+                </tr>
+                <tr>
+                    <th>Studiepoeng</td>
+                    <td>180</td>
+                </tr>
+                <tr>
+                    <th>Studiestart</th>
+                    <td>August</td>
+                </tr>
+                <tr>
+                    <th>Undervisningsspråk</th>
+                    <td>Norsk, Engelsk</td>
+                </tr>
+                <tr>
+                    <th>Studieplasser</th>
+                    <td>40</td>
+                </tr>
+            </table>
             
-        </section>
+            <section> <!-- Admission Requirements -->
+                    <h2>Opptakskrav og poeng</h2>
+                    <p>For å søke på dette programmet må du ha</p>
+                    <ul>
+                        <li><b><a href="https://www.samordnaopptak.no/info/opptak/opptak-uhg/">generell studiekompetanse (samordnaopptak.no)</a></b> eller <b><a href="#">oppfylle kravene til realkompetanse</a></b></li>
+                    <li>matematikk R1 og R2</li>
+                    <li>fysikk</li>
+                </ul>
+                <p>Det kan være konkurranse om plassene. Ved forrige opptak kom alle kvalifiserte søkere inn.</p>
+                <p>Hvis du mangler generell studiekompetanse eller enkelte fag fra videregående skole, kan du søke på dette studiet om du har <a href="#"><b>bestått ettårig forkurs for ingeniørutdanning.</a></b></p>
+                
+            </section>
 
-        <section>
-            <h2>Slik søker du</h2>
-            <p>Du søker på Samordna opptak med studiekode 215 503.</p>
-            <ul>
-                <li>15. april: ordinær søknadsfrist</li>
-                <li>1. mars: frist for enkelte søkere</li>
-            </ul>
-            <a href="#"><b>Mer om å søke på bachelor</b>.</a>
-        </section>
+            <section>
+                <h2>Slik søker du</h2>
+                <p>Du søker på Samordna opptak med studiekode 215 503.</p>
+                <ul>
+                    <li>15. april: ordinær søknadsfrist</li>
+                    <li>1. mars: frist for enkelte søkere</li>
+                </ul>
+                <a href="#"><b>Mer om å søke på bachelor</b>.</a>
+            </section>
 
-        <section>
-            <h2>Hva lærer du?</h2>
-            <p>Bachelor i matematisk modellering og datavitenskap kobler sammen matematikk, informatikk, fysikk og statistikk.</p>
-            <p>Du får innsikt i matematiske modeller som brukes i praktisk problemløsning blant annet i medisinsk kjemi, biologiske prosesser og ulike samfunnssystemer.</p>
-            <p>Det første studieåret har du emner i blant annet matematikk, programmering, fysikk og kjemi for å få en felles forståelse av tematikken.</p>
-            <p>Det siste semesteret skriver du en bacheloroppgave tett knyttet til problemstillinger i arbeidslivet.</p>
-            <p>Første året velger du hvilken av disse spesialiseringene du vil ta.</p>
-           
-            <ul>
-                <li>
-                    <h4>Statistiske og datadrevne metoder</h4>
-                    <p>Du lærer om hvordan du kan bruke målte data koblet med datadrevne og statistiske metoder til å gjøre beregninger, for eksempel av fremtidige strømpriser.</p>
-                    <p>Du lærer hvordan du kan løse komplekse og sammensatte problemer, og utforske høydimensjonale datatyper. Moderne metoder innen maskinlæring og kunstig intelligens står sentralt.</p>
-                </li>
-                <li>
-                    <h4>Vitenskapelige beregninger</h4>
-                    <p>Du lærer å lage effektive algoritmer, datastrukturer og kildekoder for å løse matematiske og fysiske problemer med numeriske metoder.</p>
-                    <p>Du lærer å utvikle kildekode og metodikk knyttet til medisinsk teknologi, biologiske prosesser og annet.</p>
-                </li>
-                <li>
-                    <h4>Matematikk og fysikk</h4>
-                    <p>Du utforsker algebraiske strukturer, blant annet knyttet til dyp læring og kunstig intelligens.</p>
-                    <p>Du lærer differensialgeometri på flater, gruppeteori og kodeteori; matematiske strukturer, representasjonsteori og kategoriteori.</p>
-                    <p>I fysikk lærer du om termodynamikk og statistisk fysikk.</p>
-                </li>
-            </ul>
-            <a href="#"><b>Se programplan på student.oslomet.no</b></a>
-
-        </section>
-        <section>
-            <h2>Studiets oppbygging</h2>
-            <h3>1. studieår</h3>
-            <div class="table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="3">1. semester</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Diskret Matematikk</td>
-                            <td>10 stp</td>
-                            <td>DAPE1300</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Programmering</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Teknologi og samfunn</td>
-                            <td>5 stp</td>
-                            <td>DAPE1300</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Innføring i modeller</td>
-                            <td>5 stp</td>
-                            <td>DAPE1300</td>
-                        </tr>
-                        <tr>
-                            <td>Matematikk 1000</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Fysikk og kjemi</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Databaser</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <section>
+                <h2>Hva lærer du?</h2>
+                <p>Bachelor i matematisk modellering og datavitenskap kobler sammen matematikk, informatikk, fysikk og statistikk.</p>
+                <p>Du får innsikt i matematiske modeller som brukes i praktisk problemløsning blant annet i medisinsk kjemi, biologiske prosesser og ulike samfunnssystemer.</p>
+                <p>Det første studieåret har du emner i blant annet matematikk, programmering, fysikk og kjemi for å få en felles forståelse av tematikken.</p>
+                <p>Det siste semesteret skriver du en bacheloroppgave tett knyttet til problemstillinger i arbeidslivet.</p>
+                <p>Første året velger du hvilken av disse spesialiseringene du vil ta.</p>
             
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="3">2. semester</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Matematikk 1000</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Programmering</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Teknologi og samfunn</td>
-                            <td>5 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Innføring i modeller</td>
-                            <td>5 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
+                <ul>
+                    <li>
+                        <h3>Statistiske og datadrevne metoder</h3>
+                        <p>Du lærer om hvordan du kan bruke målte data koblet med datadrevne og statistiske metoder til å gjøre beregninger, for eksempel av fremtidige strømpriser.</p>
+                        <p>Du lærer hvordan du kan løse komplekse og sammensatte problemer, og utforske høydimensjonale datatyper. Moderne metoder innen maskinlæring og kunstig intelligens står sentralt.</p>
+                    </li>
+                    <li>
+                        <h3>Vitenskapelige beregninger</h3>
+                        <p>Du lærer å lage effektive algoritmer, datastrukturer og kildekoder for å løse matematiske og fysiske problemer med numeriske metoder.</p>
+                        <p>Du lærer å utvikle kildekode og metodikk knyttet til medisinsk teknologi, biologiske prosesser og annet.</p>
+                    </li>
+                    <li>
+                        <h3>Matematikk og fysikk</h3>
+                        <p>Du utforsker algebraiske strukturer, blant annet knyttet til dyp læring og kunstig intelligens.</p>
+                        <p>Du lærer differensialgeometri på flater, gruppeteori og kodeteori; matematiske strukturer, representasjonsteori og kategoriteori.</p>
+                        <p>I fysikk lærer du om termodynamikk og statistisk fysikk.</p>
+                    </li>
+                </ul>
+                <a href="#"><b>Se programplan på student.oslomet.no</b></a>
 
-                            <td>Matematikk 1000</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Fysikk og kjemi</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                            <td>Databaser</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <h3>2. studieår</h3>
-            <div class="table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="3">1. semester</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        
-                            <td>Diskret Matematikk</td>
-                            <td>10 stp</td>
-                            <td>DAPE1300</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Programmering</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Teknologi og samfunn</td>
-                            <td>5 stp</td>
-                            <td>DAPE1300</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Innføring i modeller</td>
-                            <td>5 stp</td>
-                            <td>DAPE1300</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Matematikk 1000</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Fysikk og kjemi</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Databaser</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                    </tbody>
-                </table>
-            
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="3">2. semester</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        
-                            <td>Matematikk 1000</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Programmering</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Teknologi og samfunn</td>
-                            <td>5 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Innføring i modeller</td>
-                            <td>5 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Matematikk 1000</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Fysikk og kjemi</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                        <tr>
-                        
-                            <td>Databaser</td>
-                            <td>10 stp</td>
-                            <td>DAPE1400</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+            </section>
+
+            <section>
+                
+                <h2>Studiets oppbygging</h2>
+                <h3 class="tablehd">1. studieår</h3>
+                <!-- Table showing subjects -->
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">1. semester</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Diskret Matematikk</td>
+                                <td>10 stp</td>
+                                <td>DAPE1300</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Programmering</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Teknologi og samfunn</td>
+                                <td>5 stp</td>
+                                <td>DAPE1300</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Innføring i modeller</td>
+                                <td>5 stp</td>
+                                <td>DAPE1300</td>
+                            </tr>
+                            <tr>
+                                <td>Matematikk 1000</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Fysikk og kjemi</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Databaser</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">2. semester</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Matematikk 1000</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Programmering</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Teknologi og samfunn</td>
+                                <td>5 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Innføring i modeller</td>
+                                <td>5 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+
+                                <td>Matematikk 1000</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Fysikk og kjemi</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                                <td>Databaser</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="tablehd">2. studieår</h3>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">1. semester</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            
+                                <td>Diskret Matematikk</td>
+                                <td>10 stp</td>
+                                <td>DAPE1300</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Programmering</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Teknologi og samfunn</td>
+                                <td>5 stp</td>
+                                <td>DAPE1300</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Innføring i modeller</td>
+                                <td>5 stp</td>
+                                <td>DAPE1300</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Matematikk 1000</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Fysikk og kjemi</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Databaser</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">2. semester</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            
+                                <td>Matematikk 1000</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Programmering</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Teknologi og samfunn</td>
+                                <td>5 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Innføring i modeller</td>
+                                <td>5 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Matematikk 1000</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Fysikk og kjemi</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                            <tr>
+                            
+                                <td>Databaser</td>
+                                <td>10 stp</td>
+                                <td>DAPE1400</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
     
-    <section>
-        <h2>Hvordan foregår undervisningen?</h2>
-        <p>Undervisningen er en kombinasjon av</p>
-        <ul>
-            <li>forelesninger</li>
-            <li>praktiske øvelser på datalaboratorier</li>
-            <li>praktiske prosjektoppgaver</li>
-            <li>selvstudium</li>
-            <li>gruppearbeid</li>
-            <li>problembasert undervisning og læring</li>  
-        </ul>
-        <p>Du vil kontinuerlig arbeide med problemer, løse oppgaver og utvikle prosjekter av ulik art.</p>
-        <p>Datamaskiner, nettbrett, mobiltelefoner, internett, web og andre elektroniske kanaler og enheter benyttes systematisk til læring, formidling, veiledning, utvikling og kommunikasjon.        </p>
-        <p>For å gjennomføre studiet på normert tid, må du regne med å bruke 35 til 40 timer per uke på studierelatert arbeid gjennom hele semesteret.</p>
-        <p>Studiet avsluttes med en praktisk bacheloroppgave som vanligvis er gitt som et oppdrag fra næringslivet.</p>
-        <ul>
-            <li>Forelesning 17 % </li>
-            <li>Lab med veiledning 35 %</li>
-            <li>Prosjekt med veiledning 18 %</li>
-            <li>Egenstudier 30 %</li>
-        </ul>
-    </section>
+            
+            <section><!-- Information about the classes -->
+                <h2>Hvordan foregår undervisningen?</h2>
+                <p>Undervisningen er en kombinasjon av</p>
+                <ul>
+                    <li>prosjektarbeid</li>
+                    <li>workshop</li>
+                    <li>presentasjoner</li>
+                    <li>veiledninger</li>
+                    <li>diskusjoner og refleksjoner</li>
+                    <li>forelesninger</li>
+                    <li>selvstudier</li>  
+                    <li>gruppearbeid</li>  
+                    <li>arbeidslivsrelevant bacheloroppgave</li>
+                </ul>
+                <p>For å gjennomføre studiet på normert tid, må du regne med å bruke om lag 40 timer per uke på studierelatert arbeid gjennom hele semesteret.  </p>
+            
+            </section>
+                
+            <section><!-- Information about the costs-->
+                <h2>Hva koster det?</h2>
+                <a href="#"><b>Du betaler en semesteravgift hvert semester (student.oslomet.no).</b></a>
+                <p><a href="#"><b>Er du internasjonal student fra utenfor EU og EØS, må du betale studieavgift (student.oslomet.no).</b></a> Det er mulig å søke om unntak for betaling av denne studieavgiften.</p>
+            </section>
+
+            <section><!-- Careers -->
+                <h2>Hva kan du jobbe som?</h2>
+                <p>Med dette studiet får du IT-kompetanse som er etterspurt i arbeidslivet, særlig om du velger spesialiseringene vitenskapelige beregninger eller statistiske og datadrevne metoder. </p>
+                <p>Spesialiseringen i matematikk og fysikk retter seg mer mot videre studier, men også her får du etterspurt kompetanse i arbeidslivet etter bachelorstudiet. </p>
+                <p>Matematisk modellering og datavitenskap blir stadig viktigere som basisgrunnlag, i for eksempel beregninger knyttet til klima, forsikring og finans, og datadrevne metoder for verdiskaping. </p>
+                <p>Datadrevne metoder og maskinlæring er i dag svært mye brukt i arbeidslivet. </p>
+            </section>
+
+            <section> <!-- Exchange student -->
+                <h2>Utveksling</h2>
+                <p>Du kan dra på utveksling i femte semester.</p>
+            </section>
         
-    <section>
-        <h2>Hva koster det?</h2>
-        <a href="#"><b>Du betaler en semesteravgift hvert semester (student.oslomet.no).</b></a>
-        <p><a href="#"><b>Er du internasjonal student fra utenfor EU og EØS, må du betale studieavgift (student.oslomet.no).</b></a> Det er mulig å søke om unntak for betaling av denne studieavgiften.</p>
-    </section>
+            <section><!-- Further study opportunities at OsloMet-->
+                <h2>Videre studiemuligheter ved OsloMet</h2>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Anvendt data- og informasjonsteknologi (ACIT)</strong>
+                        <p>Masterprogram | 2 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+            </section>
+        </article>
 
-    <section>
-        <h2>Hva kan du jobbe som?</h2>
-        <p>Med dette studiet får du IT-kompetanse som er etterspurt i arbeidslivet, særlig om du velger spesialiseringene vitenskapelige beregninger eller statistiske og datadrevne metoder. </p>
-        <p>Spesialiseringen i matematikk og fysikk retter seg mer mot videre studier, men også her får du etterspurt kompetanse i arbeidslivet etter bachelorstudiet. </p>
-        <p>Matematisk modellering og datavitenskap blir stadig viktigere som basisgrunnlag, i for eksempel beregninger knyttet til klima, forsikring og finans, og datadrevne metoder for verdiskaping. </p>
-        <p>Datadrevne metoder og maskinlæring er i dag svært mye brukt i arbeidslivet. </p>
-    </section>
+        <article>
+            <section>  <!-- Place of study-->
+                <h2>Studiested</h2>
+                <b><a href="#">Studiested Pilestredet</a></b>
+            </section>
 
-    <section>
-        <h2>Utveksling</h2>
-        <p>Du kan dra på utveksling i femte semester.</p>
-    </section>
+            <section><!-- Questions about the education -->
+                <h2>Spørsmål om utdanningen?</h2>
+                <b><a href="#">Har du spørsmål om utdanningen, kontakt oss gjennom vårt kontaktskjema.</a></b>
+            </section>
 
-    <section>
-        <h2>Videre studiemuligheter ved OsloMet</h2>
-        <p>Anvendt data- og informasjonsteknologi (ACIT)</p>
-    </section>
+            <section><!-- Academic supervisor -->
+                <h2>Faglig leder</h2>
+                <a href="#" class="link-box">
+                    <img src="media/profile.jpg" alt="Kristoffer Herland Hellton" class="profile-pic">
+                    <div class="info">
+                        <strong>Kristoffer Herland Hellton</strong>
+                        <p>førsteamanuensis</p>
+                        <p>+47 672 37 240 | kristoffer.hellton@oslomet.no</p>
+                    </div>
+                </a>
+            </section>
 
-    <section>
-        <h2>Studiested</h2>
-        <a href="#">Studiested Pilestredet</a>
-    </section>
+            <section><!-- Extra links -->
+                <h2>Du er kanskje også interessert i disse?</h2>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Anvendt datateknologi</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Bioteknologi- og kjemiingeniør</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Byggingeniør</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Dataingeniør</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Elektronikkingeniør</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Informasjonsteknologi</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Maskiningeniør</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                <a href="#" class="link-box">
+                    <div class="info">
+                        <strong>Tre-terminsordning til ingeniørutdanning</strong>
+                        <p>Bachelorprogram | 3 år | Pilestredet i Oslo | Heltid</p>
+                    </div>
+                </a>
+                
+            </section>
+        </article>
 
-    <section>
-        <h2>Spørsmål om utdanningen?</h2>
-        <a href="#">Har du spørsmål om utdanningen, kontakt oss gjennom vårt kontaktskjema.</a>
-    </section>
-
-    <section>
-        <h2>Faglig leder</h2>
-        <a href="#" class="link-box">
-            <img src="media/profile.jpg" alt="Kristoffer Herland Hellton" class="profile-pic">
-            <div class="info">
-                <strong>Kristoffer Herland Hellton</strong>
-                <p>førsteamanuensis</p>
-                <p>+47 672 37 240 | kristoffer.hellton@oslomet.no</p>
-            </div>
-        </a>
-    </section>
-
-    <section>
-        <h2>Du er kanskje også interessert i disse?</h2>
-    
-    </section>
-
-    
-
-
-    <aside>
-        
-        <div>
+        <article> <!-- Student Article -->
             <h2>Studenthistorier</h2>
-            <p>Teknologi og design</p>
-            <p>Har du lyst til å finne ut hva som vil skje i fremtiden? Lær å bruke verktøy for å forutsi alt fra været og strømprisene til utviklingen i boligma</p>
-            <p>Spå fremtiden med matematikk og datavitenskap </p>
-        </div>
-        <div>
-            <img>
-        </div>
+            <section class="student-history">
+                
+                <div class="student-info">
+                    <a href="#" class="student-info-link"><h3>Spå fremtiden med matematikk og datavitenskap</h3>
+                    <p>Har du lyst til å finne ut hva som vil skje i fremtiden? Lær å bruke verktøy for å forutsi alt fra været og strømprisene til utviklingen i boligma</p>
+                    <p>Spå fremtiden med matematikk og datavitenskap </p>
+                    <a href="#" class="student-info-link-2"><b>Teknologi og design</b></a>
+                    </a>
+                </div>
+            
+                <a href="#">
+                    <img src="media/oslomet.png" alt="Bilde av oslomet bygg" width="" class="student-img">
+                </a> 
+            </section>
+            
+            <section class="more-student-history">
+                <b><a href="#">Flere studenthistorier</a></b>
+            </section>
 
-        
-        
-        
-    </aside>
+    </article>
+
     </main>
-
+ <!-- Footer Section with Contact Information -->
     <footer>
-        <div class="footerleft">
+        <section class="newsletter">
             <p>Hold deg oppdatert på hva som skjer på OsloMet.</p>
-        </div>
-        <div class="footermiddke">
-
-        </div>
-        <div class="footerright">
-
-        </div>
+            <b><a class="subscribe">Abonner på vårt nyhetsbrev!</a></b>
+        </section>
+        <section class="footer-content">
+            <div class="contact-info">
+                <p>OSLO METROPOLITAN UNIVERSITY STORBYUNIVERSITETET</p>
+                <p>Postboks 4, St. Olavs plass<br>
+                0130 Oslo<br>
+                Tlf.: 67 23 50 00</p>
+                <a href="#" class="contact-link">Kontakt oss</a>
+            </div>
+            <ul class="links">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Ansatteoversikt</a></li>
+                <li><a href="#">Arrangementoversikt</a></li>
+                <li><a href="#">For ansatte</a></li>
+                <li><a href="#">For studenter</a></li>
+                <li><a href="#">Ledige stillinger</a></li>
+                <li><a href="#">Personvernerklæring og informasjonskapslar</a></li>
+                <li><a href="#">Pressekontakt</a></li>
+                <li><a href="#">Tilgjengelegheitserklæring</a></li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">X (Twitter)</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </section>
     </footer>
+    
 </body>
 </html>
