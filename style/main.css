@@ -242,9 +242,9 @@ a:hover{
     }
 }
 
-
-
-
+.commit-h{
+    text-align: center;
+}
 .git-insights{
     display: flex;
     flex-direction: column;
@@ -254,6 +254,7 @@ a:hover{
     height: auto;
     margin-bottom: 1rem;
 }
+
 /* Image Scaling */
 .oslomet{
     max-width: 100%;
