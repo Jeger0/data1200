@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-article, section, .main-image{
+section, .main-image{
     max-width: 1000px;
     margin: auto;
     padding: 1rem;
@@ -56,6 +56,7 @@ th {
     width: 60%; 
     margin: auto; 
 }
+/* Menu styling*/
 .menu {
     display: flex;
     align-items: center;    
@@ -94,7 +95,7 @@ th {
     }
 
     .menu li {
-        width: 45%;  /* Each link will take 45% of the width, allowing 2 items per row */
+        width: 40%;  /* Each link will take 45% of the width, allowing 2 items per row */
         margin-bottom: 10px;
         text-align: center;
     }
@@ -196,7 +197,7 @@ a:hover{
 }
 
 /* Link Box Styling */
-.link-box {
+.link-box a{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -205,9 +206,10 @@ a:hover{
     border-radius: 5px;
     overflow: hidden;
     margin-top: 1rem;
+    flex-wrap: wrap;
     
 }
-.link-box:focus, .link-box:hover, .link-box:active{
+.link-box a:focus, .link-box a:hover, .link-box a:active{
     border: 3px solid black;
 }
 .profile-pic {
@@ -215,26 +217,17 @@ a:hover{
     height: 80px;
     margin-right: 1rem;
 }
-.info {
-    font-size: 1rem;
-}
-.info strong {
-    font-size: 1.1rem;
-}
-.info p{
+.link-box div p{
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
 /* Smaller screen */
 @media (max-width: 600px) {
     .profile-pic {
         margin-bottom: 0.8rem;
         width: 40px;
         height: 50px;
-    }
-
-    .info {
-        font-size: 0.9rem;
     }
 }
 
