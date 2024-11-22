@@ -3,18 +3,19 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-section, .main-image{
+section, .main-image {
     max-width: 1000px;
     margin: auto;
     padding: 1rem;
 }
 header, footer {
     background-color: gold;
-    padding: 0.5rem
+    padding: 0.5rem;
 }
-section li{
+section li {
     padding: 5px;
 }
+
 /* Headings */
 h1 {
     text-align: center;
@@ -26,6 +27,7 @@ h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
+
 /* Table Styling */
 table {
     border-collapse: collapse;
@@ -56,17 +58,17 @@ th {
     width: 60%; 
     margin: auto; 
 }
-/* Menu styling*/
+/* Menu styling */
 .menu {
     display: flex;
-    align-items: center;    
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
 }
-.menu li{
+.menu li {
     list-style-type: none;
     padding-right: 1rem;
 }
-.menu a{
+.menu a {
     background-color: black;
     color: white;
     border: none;
@@ -78,87 +80,68 @@ th {
     font-weight: bold;
 }
 .menu a:active, .menu a:focus, .menu a:hover {
-    background-color: white; 
-    color: black;  
-    border: 3px solid black;  
-    transform: scale(1.1); 
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    transform: scale(1.1);
 }
+
 /* Smaller screen Menu */
 @media (max-width: 800px) {
-        .menu {
-        display: flex;
-        flex-wrap: wrap; 
+    .menu {
+        flex-wrap: wrap;
         padding: 0;
         margin: 0;
         list-style-type: none;
-        justify-content: space-around; 
+        justify-content: space-around;
     }
-
     .menu li {
-        width: 40%;  /* Each link will take 45% of the width, allowing 2 items per row */
+        width: 40%;
         margin-bottom: 10px;
         text-align: center;
     }
     .menu a {
         display: block;
         padding: 1rem;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-weight: bold;
         background-color: black;
     }
 }
-.menu a:hover, menu a:active, .menu a:focus {
-    background-color: white; 
-    color: black;  
-    border: 3px solid black;  
-}
 
 /* Lyrics font & size, and a border around it, making it easier to read */
-/* White-space and overflow code imported from AI*/
 pre {
-    
-    padding: 1.5em; 
-    font-family: Arial, sans-serif; 
-    font-size: 1.3em; 
-    line-height: 1.8; 
-    color: #222; 
-    white-space: pre-wrap; /* Allows text wrapping within the box */
-    overflow-x: auto; /* Enables horizontal scrolling for long lines */
-    border: 1px solid #d0d7de; 
-
+    padding: 1.5em;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.8;
+    color: #222;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    border: 1px solid #d0d7de;
 }
-/* Flexbox to aling image*/
+
+/* Flexbox to align image */
 .songs-container {
-    display: flex; /* Use flexbox to align items horizontally */
-    align-items: flex-start; /* Align items at the top */
-    gap: 20px; /* Add space between the songs and the image */
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
     flex-wrap: wrap;
 }
-
 .songs {
-    flex: 1; /* Let the songs list take up available space */
+    flex: 1;
     min-width: 300px;
 }
-.songs a{
+.songs a {
     font-weight: bold;
 }
 
-/* Images sizing and placement*/
+/* Image sizing and placement */
 /* Border-radius and box shadow code imported from AI*/
-.image-container img {
-    width: 300px; 
-    height: auto; 
-    border-radius: 8px; /* Optional: Add rounded corners to the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for styling */
-}
-
-.artist-image img, .lyrics-image img, .song-art img {
+.image-container img, .artist-image img, .lyrics-image img, .song-art img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .artists {
@@ -169,35 +152,18 @@ pre {
     margin-top: 20px;
 }
 
-.artist-image {
-    text-align: center;
-}
-
-.artist-image img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.artist-image p {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
 /* General Link Styling */
-a{
+a {
     color: black;
     text-decoration-thickness: 2px;
     text-decoration-color: brown;
 }
-a:hover{
+a:hover {
     text-decoration-color: black;
 }
 
 /* Link Box Styling */
-.link-box a{
+.link-box a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -207,9 +173,8 @@ a:hover{
     overflow: hidden;
     margin-top: 1rem;
     flex-wrap: wrap;
-    
 }
-.link-box a:focus, .link-box a:hover, .link-box a:active{
+.link-box a:focus, .link-box a:hover, .link-box a:active {
     border: 3px solid black;
 }
 .profile-pic {
@@ -217,7 +182,7 @@ a:hover{
     height: 80px;
     margin-right: 1rem;
 }
-.link-box div p{
+.link-box div p {
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -231,58 +196,53 @@ a:hover{
     }
 }
 
-.commit-h{
+/* Commit and Insights */
+.commit-h {
     text-align: center;
 }
-.git-insights{
+.git-insights {
     display: flex;
     flex-direction: column;
 }
-.git-img{
+.git-img {
     max-width: 100%;
     height: auto;
     margin-bottom: 1rem;
 }
 
 /* Image Scaling */
-.image-scaling{
+.image-scaling {
     max-width: 100%;
-    height: auto;    
+    height: auto;
 }
 
-.info-table td {
-    padding: 8px;
-}
 /* Student history styling */
 .student-info {
     padding: 10px;
     background-color: gold;
 }
-.student-info-link{
+.student-info-link, .student-info-link-2 {
     text-decoration: none;
 }
-.student-info-link-2{
-    text-decoration-color: black;
-}
-.student-info-link-2:hover{
+.student-info-link-2:hover {
     text-decoration-color: brown;
 }
-.more-student-history{
+.more-student-history {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-.more-student-history a{
+.more-student-history a {
     font-size: 1.5rem;
     background-color: gold;
     padding: 1rem;
     text-decoration: none;
 }
 .more-student-history a:active, .more-student-history a:focus, .more-student-history a:hover {
-    background-color: white; 
-    color: black;  
-    border: 3px solid black;  
-    transform: scale(1.1); 
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    transform: scale(1.1);
 }
 
 /* Footer Styling */
@@ -290,17 +250,15 @@ footer {
     background-color: gold;
     padding: 2rem;
     color: black;
-    font-family: Arial, sans-serif;
     text-align: center;
 }
-footer a{
+footer a {
     text-decoration: none;
-    font-weight: bold
+    font-weight: bold;
 }
 .newsletter h2 {
     margin-bottom: 1rem;
 }
-
 .sub {
     display: inline-block;
     background-color: black;
@@ -310,21 +268,18 @@ footer a{
     border-radius: 5px;
     text-decoration: none;
 }
-
 .sub:hover, .sub:focus {
     background-color: white;
     color: black;
     border: 3px solid black;
     text-decoration: none;
 }
-
 .footer-content {
     display: flex;
     justify-content: center;
     gap: 2rem;
     text-align: left;
 }
-
 .info, .oslo-links {
     width: 300px;
 }
@@ -332,7 +287,6 @@ footer a{
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 .oslo-links li {
     margin-bottom: 0.5rem;
@@ -349,6 +303,6 @@ footer a:hover {
         align-items: center;
     }
 }
-.footer-content a{
+.footer-content a {
     text-decoration: none;
 }
