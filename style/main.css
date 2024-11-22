@@ -108,6 +108,7 @@ th {
 }
 
 /* Lyrics font & size, and a border around it, making it easier to read */
+/* Some White-space and overflow code imported from AI*/
 pre {
     padding: 1.5em;
     font-family: Arial, sans-serif;
