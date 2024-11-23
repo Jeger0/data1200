@@ -108,7 +108,8 @@ th {
 }
 
 /* Lyrics font & size, and a border around it, making it easier to read */
-/* Some White-space and overflow code imported from AI*/
+/* White-space imported from src: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space, by MDN contributors, page last modified: 30.08.2024 */
+/* Overflow imported from src: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow, by MDN contributors, page last modified: 29.07.2024 */
 pre {
     padding: 1.5em;
     font-family: Arial, sans-serif;
@@ -135,9 +136,16 @@ pre {
     font-weight: bold;
 }
 
-/* Image sizing and placement */
+/* Images sizing and placement*/
 /* Border-radius and box shadow code imported from AI*/
-.image-container img, .artist-image img, .lyrics-image img, .song-art img {
+.image-container img {
+    width: 300px; 
+    height: auto; 
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for styling */
+}
+
+.artist-image img, .lyrics-image img, .song-art img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
