@@ -35,7 +35,8 @@ table {
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
-.table{
+/* Table will wrap when the site becomes smaller */
+.table{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -88,6 +89,7 @@ th {
 
 /* Smaller screen Menu */
 @media (max-width: 800px) {
+    /* menu buttons wraps 2 and 2 and fully covers the header */
     .menu {
         flex-wrap: wrap;
         padding: 0;
@@ -171,7 +173,7 @@ a:hover {
     text-decoration-color: black;
 }
 
-/* Link Box Styling */
+/* Alternative styling for a. "Link-box"*/
 .link-box a {
     display: flex;
     align-items: center;
@@ -196,7 +198,7 @@ a:hover {
     margin-bottom: 2px;
 }
 
-/* Smaller screen */
+/* Smaller screen the pictures in link-box gets smaller and the text wraps*/
 @media (max-width: 600px) {
     .profile-pic {
         margin-bottom: 0.8rem;
@@ -205,11 +207,11 @@ a:hover {
     }
 }
 
-/* Commit and Insights */
+/* Commit and Insights styling*/
 .commit-h {
     text-align: center;
 }
-.git-insights {
+.git-insights { /* the pictures gets one column*/
     display: flex;
     flex-direction: column;
 }
@@ -219,7 +221,7 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-/* Image Scaling */
+/* Image Scaling when the site becomes smaller*/
 .image-scaling {
     max-width: 100%;
     height: auto;
@@ -230,18 +232,24 @@ a:hover {
     padding: 10px;
     background-color: gold;
 }
-.student-info-link, .student-info-link-2 {
+.student-info-link {
     text-decoration: none;
 }
-.student-info-link-2:hover {
+/* Changed underline to get a better contrast from the yellow background */
+.student-info-link-2{
+    text-decoration-color: black;
+}
+.student-info-link-2:hover{
     text-decoration-color: brown;
 }
+/*Button styling for more student history*/
 .more-student-history {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 .more-student-history a {
+    display: inline-block;
     font-size: 1.5rem;
     background-color: gold;
     padding: 1rem;
@@ -261,9 +269,19 @@ footer {
     color: black;
     text-align: center;
 }
-footer a {
+footer a { /* Styling for links in footer and all pages*/
     text-decoration: none;
     font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: left;
 }
 .newsletter h2 {
     margin-bottom: 1rem;
@@ -283,16 +301,11 @@ footer a {
     border: 3px solid black;
     text-decoration: none;
 }
-.footer-content {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    text-align: left;
-}
+/*Customized styling for links in index only*/
 .info, .oslo-links {
     width: 300px;
 }
-.oslo-links {
+.oslo-links { 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -300,12 +313,7 @@ footer a {
 .oslo-links li {
     margin-bottom: 0.5rem;
 }
-footer a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
-/* Smaller screens */
+/* Smaller screens makes the content one column*/
 @media (max-width: 900px) {
     .footer-content {
         flex-direction: column;
