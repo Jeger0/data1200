@@ -71,7 +71,7 @@ th {
     list-style-type: none;
     padding-right: 1rem;
 }
-.menu a {
+.menu a, .sub {
     background-color: black;
     color: white;
     border: none;
@@ -81,9 +81,10 @@ th {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block
 }
 /* Menu button styling for better visibility when hover, clicked etc */
-.menu a:active, .menu a:focus, .menu a:hover {
+.menu a:active, .menu a:focus, .menu a:hover, .sub:hover, .sub:focus  {
     background-color: white;
     color: black;
     border: 3px solid black;
@@ -278,21 +279,6 @@ footer a:hover {
 }
 .newsletter h2 {
     margin-bottom: 1rem;
-}
-.sub {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 0.8rem 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.sub:hover, .sub:focus {
-    background-color: white;
-    color: black;
-    border: 3px solid black;
-    text-decoration: none;
 }
 /*Customized styling for links in index only*/
 .info, .oslo-links {
