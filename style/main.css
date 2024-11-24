@@ -1,14 +1,14 @@
-/* General */
+/* General styling*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-section, .main-image {
+section, .main-image { /* Center the page and added padding*/
     max-width: 1000px;
     margin: auto;
     padding: 1rem;
 }
-header, footer {
+header, footer { 
     background-color: gold;
     padding: 0.5rem;
 }
@@ -199,15 +199,17 @@ a:hover, .student-info-link-2 {
 .link-box a:focus, .link-box a:hover, .link-box a:active {
     border: 3px solid black;
 }
+.link-box div p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+/* Img styling for link-box*/
 .profile-pic {
     width: 60px;
     height: 80px;
     margin-right: 1rem;
 }
-.link-box div p {
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
+
 /* Commit and Insights styling*/
 .commit-h {
     text-align: center;
@@ -227,6 +229,7 @@ a:hover, .student-info-link-2 {
     padding: 10px;
     background-color: gold;
 }
+/* Seperate student info link */
 .student-info-link, .footer-content a {
     text-decoration: none;
 }
