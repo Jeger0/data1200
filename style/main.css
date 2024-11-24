@@ -263,7 +263,7 @@ footer {
     color: black;
     text-align: center;
 }
-footer a { /* Styling for links in footer and all pages*/
+footer a { /* Styling for links in footer for all pages*/
     text-decoration: none;
     font-weight: bold;
 }
