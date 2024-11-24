@@ -35,7 +35,7 @@ table {
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
-/* Table will wrap when the site becomes smaller */
+/* Table with the subjects will wrap when the site becomes smaller */
 .table{ 
     display: flex;
     flex-wrap: wrap;
@@ -48,12 +48,14 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-.info-table th{
-    text-align: left;
-}
+
 .tablehd{
     text-align: center;
     padding-bottom: 1rem;
+}
+/* Talbe with details about the study. Different styling */
+.info-table th{
+    text-align: left;
 }
 .info-table {
     width: 60%; 
@@ -80,6 +82,7 @@ th {
     text-decoration: none;
     font-weight: bold;
 }
+/* Menu button styling for better visibility when hover, clicked etc */
 .menu a:active, .menu a:focus, .menu a:hover {
     background-color: white;
     color: black;
@@ -173,7 +176,7 @@ a:hover {
     text-decoration-color: black;
 }
 
-/* Alternative styling for a. "Link-box"*/
+/* Alternative styling for a"Link-box". Uses boxes instead with that wraps */
 .link-box a {
     display: flex;
     align-items: center;
