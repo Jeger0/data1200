@@ -112,6 +112,11 @@ th {
         padding: 1rem;
         background-color: black;
     }
+    /* Smaller screens makes the content one column*/
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Lyrics font & size, and a border around it, making it easier to read */
@@ -202,16 +207,6 @@ a:hover, .student-info-link-2 {
     margin-top: 2px;
     margin-bottom: 2px;
 }
-
-/* Smaller screen the pictures in link-box gets smaller and the text wraps*/
-@media (max-width: 600px) {
-    .profile-pic {
-        margin-bottom: 0.8rem;
-        width: 40px;
-        height: 50px;
-    }
-}
-
 /* Commit and Insights styling*/
 .commit-h {
     text-align: center;
@@ -286,11 +281,4 @@ footer a:hover {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-/* Smaller screens makes the content one column*/
-@media (max-width: 900px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
 }
