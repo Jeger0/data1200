@@ -84,7 +84,7 @@ th {
     display: inline-block
 }
 /* Menu button styling for better visibility when hover, clicked etc */
-.menu a:active, .menu a:focus, .menu a:hover, .sub:hover, .sub:focus, .more-student-history a:active, .more-student-history a:focus, .more-student-history a:hover  {
+.menu a:active, .menu a:focus, .menu a:hover, .sub:hover, .sub:focus, sub:active, .more-student-history a:active, .more-student-history a:focus, .more-student-history a:hover  {
     background-color: white;
     color: black;
     border: 3px solid black;
