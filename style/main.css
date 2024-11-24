@@ -71,6 +71,7 @@ th {
     list-style-type: none;
     padding-right: 1rem;
 }
+/* Simple Button styling*/
 .menu a, .sub {
     background-color: black;
     color: white;
@@ -93,14 +94,14 @@ th {
 }
 
 /* Smaller screen Menu */
+/* Menu buttons wraps 2 and 2 and fully covers the nav bar */
 @media (max-width: 800px) {
-    /* menu buttons wraps 2 and 2 and fully covers the header */
     .menu {
         flex-wrap: wrap;
         padding: 0;
         margin: 0;
         list-style-type: none;
-        justify-content: space-around;
+        justify-content: space-around; 
     }
     .menu li {
         width: 40%;
@@ -183,7 +184,7 @@ a:hover, .student-info-link-2 {
     text-decoration-color: black;
 }
 
-/* Alternative styling for a"Link-box". Uses boxes instead with that wraps */
+/* Alternative styling for a"Link-box". Uses boxes instead and it wraps*/
 .link-box a {
     display: flex;
     align-items: center;
@@ -260,7 +261,7 @@ footer a:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
-.footer-content {
+.footer-content { /* Centers the content but text still starts at left */
     display: flex;
     justify-content: center;
     gap: 2rem;
