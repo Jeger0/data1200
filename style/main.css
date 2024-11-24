@@ -12,7 +12,7 @@ header, footer {
     background-color: gold;
     padding: 0.5rem;
 }
-section li {
+section li, .oslo-links li{
     padding: 5px;
 }
 
@@ -89,6 +89,7 @@ th {
     color: black;
     border: 3px solid black;
     transform: scale(1.1);
+    text-decoration: none;
 }
 
 /* Smaller screen Menu */
@@ -230,7 +231,7 @@ a:hover, .student-info-link-2 {
     padding: 10px;
     background-color: gold;
 }
-.student-info-link {
+.student-info-link, .footer-content a {
     text-decoration: none;
 }
 .student-info-link-2:hover{
@@ -277,9 +278,6 @@ footer a:hover {
     gap: 2rem;
     text-align: left;
 }
-.newsletter h2 {
-    margin-bottom: 1rem;
-}
 /*Customized footer links styling in index only*/
 .info, .oslo-links {
     width: 300px;
@@ -289,16 +287,10 @@ footer a:hover {
     padding: 0;
     margin: 0;
 }
-.oslo-links li {
-    margin-bottom: 0.5rem;
-}
 /* Smaller screens makes the content one column*/
 @media (max-width: 900px) {
     .footer-content {
         flex-direction: column;
         align-items: center;
     }
-}
-.footer-content a {
-    text-decoration: none;
 }
